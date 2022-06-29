@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navigation {
+    position: relative;
+    top: 40px;
+    float: right;
+}
+
+.brand {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #DF7009;
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+
+.brand .resort {
+    color: black;
+}
+
+.header {
+    float: left;
+    width: 100%;
+}
+
+header .navigation a {
+    color: black;
+    font-size: 1em;
+    font-weight: 500px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+.left-sidebar {
+    float: left;
+    display: flex;
+}
+
+.top-bar {
+    position: absolute;
+    width: 557px;
+    height: 555px;
+    left: 308px;
+    top: 246px;
+}
+
+.buttom-bar {
+    box-sizing: border-box;
+    position: absolute;
+    left: 600px;
+    top: 650px;
+    border: 1px #FFFFFF;
+}
+
+.right-sidebar h1 {
+    position: absolute;
+    width: 100%;
+    left: 1060px;
+    top: 380px;
+    font-weight: 900;
+    font-size: 100px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(/image/unsplash.png);
+}
+
+.right-sidebar p {
+    position: absolute;
+    left: 1060px;
+    top: 520px;
+    font-size: 16px;
+}
+
+.right-sidebar .btn {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1060px;
+    top: 700px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.inquiry {
+    position: absolute;
+    height: 400px;
+    top: 1036px;
+    background: #F3F3F3;
+    width: 100%;
+}
+
+.inquiry p {
+    padding: 40px 300px;
+    width: 75%;
+    height: 180px;
+}
+
+.inquiry .bttn {
+    padding: 17px;
+    width: 200px;
+    height: 50px;
+    top: 1360px;
+    background: #000000;
+    color: #FFFFFF;
+    margin-left: 640px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content .top-bar {
+    z-index: 1;
+    width: 1000px;
+    height: 415px;
+    top: 1750px;
+}
+
+.top-img {
+    width: 1000px;
+}
+
+.content .buttom-bar {
+    width: 300px;
+    height: 290px;
+    left: 1130px;
+    top: 1660px;
+    background: #C19B76;
+}
+
+.first-title {
+    position: absolute;
+    width: 438px;
+    height: 68px;
+    left: 741px;
+    top: 2280px;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.title {
+    color: #C19B76;
+}
+
+.paragraph {
+    position: absolute;
+    width: 75%;
+    height: 58px;
+    left: 300px;
+    top: 2378px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+li {
+    list-style-type: none;
+    width: 31px;
+    height: 31px;
+    left: 650px;
+    top: 2500px;
+    position: relative;
+    display: table-row-group;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.right-li li {
+    list-style-type: none;
+    width: 31px;
+    height: 31px;
+    left: 1060px;
+    top: 2360px;
+    position: relative;
+    display: table-row-group;
+}
+
+.line {
+    border: 1px solid #C19B76;
+    position: absolute;
+    top: 2780px;
+    width: 100%;
+    background-color: #C19B76;
+}
+
+.footer .brand {
+    left: 500px;
+    top: 2930px;
+}
+
+.footer-img-tent {
+    position: absolute;
+    left: 0;
+    right: 1470px;
+    top: 2975px;
+    bottom: 90px;
+}
+
+.address {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 150px
+}
+
+.menu {
+    width: 200px;
+    margin-left: 300px;
+    margin-top: -190px
+}
+
+.color {
+    color: #C19B76;
+}
+
+.footer-right-img {
+    position: absolute;
+    right: 0;
+    left: 1070px;
+    top: 2975px;
+    bottom: 90px;
+}
+
+.footer-line {
+    width: 40%;
+    margin-left: 470px;
+    margin-right: 300px;
+    border: 1px solid black;
+    position: absolute;
+    top: 3280px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.end {
+    position: absolute;
+    left: 8.33%;
+    top: 3300px;
+    scroll-padding-inline-end: auto;
+    display: flex;
+}
+
+.end p {
+    left: 800px;
+    position: relative;
+}
