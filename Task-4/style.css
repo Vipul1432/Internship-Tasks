@@ -1,0 +1,81 @@
+.navbar-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.poppins-700 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+}
+
+.poppins-600 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.poppins-500 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.btn-color {
+    background-color: #05427B;
+    color: aliceblue;
+}
+
+hr {
+    width: 10%;
+    border: 1.5px solid #00749A;
+    margin: auto;
+    background-color: #00749A;
+}
+
+.card-title {
+    color: #0B7C4F;
+}
+
+.center {
+    background-color: #00749A;
+}
+
+.btn-color-2 {
+    background-color: #FFFFFF;
+    color: #00749A;
+}
+
+.footer {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.form-control {
+    border-radius: 13px;
+}
+
+.footer {
+    overflow-x: hidden;
+}
+
+.container3 {
+    padding: 10px 10px;
+}
+
+.container .container3 {
+    padding: 100px 100px;
+}
+
+.card-radius {
+    border-radius: 20px;
+    border-color: #00749A;
+    background-color: #F5F5F5;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.input {
+    border-radius: 13px;
+    height: 45px
+}
