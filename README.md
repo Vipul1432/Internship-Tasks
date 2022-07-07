@@ -9,7 +9,7 @@ In this repo all tasks source code during internship i performed
   <tr>
     <td> Task-1 Link</td>
     <td> 
-    [Click here👉](https://vipul1432.github.io/Internship-Tasks/Task-1/) 
+    [Click here 👉](https://vipul1432.github.io/Internship-Tasks/Task-1/) 
     </td>
   </tr>
 </table>
