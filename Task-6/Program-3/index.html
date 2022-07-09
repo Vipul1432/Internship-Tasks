@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Area</title>
+    <style>
+        .container {
+            border: green 2px solid;
+            border-radius: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+            height: 200px;
+            width: 50%;
+            align-items: center;
+            margin: auto;
+            margin-top: 30vh;
+        }
+        
+        .text {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text">The Area of Triangle</h1>
+        <h3>
+            <div id="result"></div>
+        </h3>
+    </div>
+
+    <script>
+        const side1 = 5;
+        const side2 = 6;
+        const side3 = 7;
+        const S = (side1 + side2 + side3) / 2;
+        const area = Math.sqrt(S * ((S - side1) * (S - side2) * (S - side3)));
+        document.getElementById("result").innerHTML = "The area of tringale is " + area + " cm<sup>2</sup>";
+    </script>
+</body>
+
+</html>
