@@ -1,0 +1,20 @@
+.container {
+    width: 40%;
+    margin: 30vh auto auto auto;
+    border: 2px solid green;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.text {
+    color: green;
+}
