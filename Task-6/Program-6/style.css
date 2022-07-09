@@ -1,0 +1,13 @@
+.container {
+    width: 40%;
+    margin: 30vh auto auto auto;
+    border: 2px solid green;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.text {
+    color: green
+}
