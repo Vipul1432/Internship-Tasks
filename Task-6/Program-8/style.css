@@ -1,0 +1,62 @@
+* {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container h1 {
+    color: green;
+}
+
+.registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.registartion-form .submit {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-top: 0px;
+    background-color: green;
+}
+
+input,
+textarea,
+.datepicker,
+.selectpicker,
+.language {
+    border-radius: 10px;
+}
+
+.submit {
+    margin-left: 100px;
+}
+
+#message {
+    padding-top: 10px;
+}
