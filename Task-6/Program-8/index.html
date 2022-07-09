@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Validation</h1>
+        <form name="form" id="form" class="registartion-form">
+            <table>
+                <tr>
+                    <td><label for="name">Username :</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="text" name="email" id="email" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password :</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="phoneNumber">Phone Number:</label></td>
+                    <td><input type="number" name="phoneNumber" id="phoneNumber" placeholder="Enter phone number"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender :</label></td>
+                    <td>Male <input type="radio" name="gender" value="male"> Female <input type="radio" name="gender" value="female"> Other <input type="radio" name="gender" value="other"></td>
+                </tr>
+                <tr>
+                    <td><label for="language">language</label></td>
+                    <td>
+                        <select name="language" id="language" class="language">
+                            <option value="">Select language</option>
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Arabic">Gujrati</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Courses : </td>
+                    <td>
+                        <select name="course" class="selectpicker mt-4" multiple data-live-search="true">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>Javascript</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="about">About : </label></td>
+                    <td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="date">DOB : </label></td>
+                    <td><input type="date" class="form-control" id="inputDate" name="date"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="tnc" name="" value=""></td>
+                    <td>I agree to the terms and conditions</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="message"></td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
