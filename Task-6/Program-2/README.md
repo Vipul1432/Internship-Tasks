@@ -4,3 +4,6 @@ Live Demo [Click here...](https://vipul1432.github.io/Internship-Tasks//Task-6/P
 
 ![image](https://user-images.githubusercontent.com/81670997/178325848-7e050ee4-d6b6-4b0c-8791-71bfba0f8670.png)
 
+![image](https://user-images.githubusercontent.com/81670997/178325963-debf9f4f-f6d3-45a8-9ed8-e1061da4614e.png)
+
+
