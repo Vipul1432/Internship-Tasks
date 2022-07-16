@@ -8,4 +8,7 @@ Live Demo [Click here...](https://vipul1432.github.io/Internship-Tasks/Task-6/Pr
 
 ![image](https://user-images.githubusercontent.com/81670997/179335629-ed1e4b7d-591c-4656-92d2-cd9b4222e456.png)
 
+![image](https://user-images.githubusercontent.com/81670997/179335655-6055ceec-7bc6-424b-8a33-8a56c97f6214.png)
+
+
 
