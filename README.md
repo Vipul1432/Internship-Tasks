@@ -41,7 +41,7 @@ In this repo all tasks source code during internship i performed
 <table>
 <h2>Task-6</h2>
   <tr>
-    <td> Task-1 Link</td>
+    <td> Program-1 Link</td>
     <td> 
     [Click here 👉](https://vipul1432.github.io/Internship-Tasks/Task-1/) 
     </td>
