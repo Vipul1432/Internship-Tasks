@@ -65,7 +65,7 @@ In this repo all tasks source code during internship i performed
     </td>
   </tr>
   <tr>
-    <td> Task-5 Link</td>
+    <td> Program-5 Link</td>
     <td> 
     [Click here 👉](https://vipul1432.github.io/Internship-Tasks/Task-5/) 
     </td>
