@@ -79,7 +79,7 @@ In this repo all tasks source code during internship i performed
   <tr>
     <td> Program-7 Link</td>
     <td> 
-    [Click here 👉](https://vipul1432.github.io/Internship-Tasks/Task-5/) 
+    [Click here 👉](https://vipul1432.github.io/Internship-Tasks//Task-6/Program-1/) 
     </td>
   </tr>
   <tr>
